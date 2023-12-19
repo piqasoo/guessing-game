@@ -1,5 +1,16 @@
-@import "./utilities.css";
+/* -----------------utilities---------------- */
+.text-center {
+  text-align: center;
+}
 
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+
+/* -----------------main---------------- */
 body,
 * {
   margin: 0;
