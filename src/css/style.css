@@ -134,3 +134,17 @@ header {
 .rule-high {
   background-color: #94e4f1;
 }
+
+/* Mobile Version */
+@media screen and (max-width: 900px) {
+  .game-interface {
+    min-width: auto;
+    width: 90%;
+  }
+  #hidden,
+  #suggestion {
+    height: 6rem;
+    width: 6rem;
+    font-size: 4rem;
+  }
+}
