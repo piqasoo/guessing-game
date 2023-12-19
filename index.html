@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="game-interface" id="game-interface">
+        <header>
+          <h2 class="text-center">GUESS NUMBER!</h2>
+          <p class="text-center">
+            between <span id="min">0</span>-<span id="max">0</span>
+          </p>
+          <div class="text-center m-1">
+            <button class="try-btn" id="try-again">try again</button>
+          </div>
+          <div class="rules">
+            <div>low: <span class="rule-btn rule-low"></span></div>
+            <div>high: <span class="rule-btn rule-high"></span></div>
+          </div>
+        </header>
+        <section class="score-container">
+          <div>Score: <span id="score">0</span></div>
+          <div>highScore: <span id="highScore">0</span></div>
+        </section>
+        <section class="notify">
+          <p class="text-center" id="msg">well done!</p>
+        </section>
+        <!-- <hr class="m-1" /> -->
+        <form action="" name="guessingGame">
+          <div class="row">
+            <input type="text" name="hidden" id="hidden" value="?" disabled />
+            <input type="number" name="suggestion" id="suggestion" />
+          </div>
+          <input type="submit" value="check" id="check-number" />
+        </form>
+      </section>
+    </main>
+    <script src="src/app.js"></script>
+  </body>
+</html>
